@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tabview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.qmy.mtablayoutlibrary.MTabLayout
+        android:id="@+id/bottomTabView_main"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true">
+
+        <com.qmy.mtablayoutlibrary.IconTabView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tabview:tab_icon="@mipmap/ic_launcher"
+            tabview:tab_selected_icon="@mipmap/ic_launcher"
+            tabview:tab_text="选项1" />
+
+        <com.qmy.mtablayoutlibrary.IconTabView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tabview:tab_icon="@mipmap/ic_launcher"
+            tabview:tab_selected_icon="@mipmap/ic_launcher"
+            tabview:tab_text="选项2" />
+
+        <com.qmy.mtablayoutlibrary.IconTabView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tabview:tab_icon="@mipmap/ic_launcher"
+            tabview:tab_selected_icon="@mipmap/ic_launcher"
+            tabview:tab_text="选项3" />
+
+        <com.qmy.mtablayoutlibrary.IconTabView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tabview:tab_icon="@mipmap/ic_launcher"
+            tabview:tab_selected_icon="@mipmap/ic_launcher"
+            tabview:tab_text="选项4" />
+    </com.qmy.mtablayoutlibrary.MTabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomTabView_main" />
+</RelativeLayout>

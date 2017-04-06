@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoTabLayout">
+        <attr name="auto_textSize_base_width" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="FooterLoadMoreView">
+        <attr name="footer_text_size" format="dimension"></attr>
+        <attr name="footer_icon" format="reference"></attr>
+        <attr name="footer_loading_text" format="string"></attr>
+        <attr name="footer_complete_text" format="string"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="TabView">
+        <attr name="tab_text" format="string"></attr>
+        <attr name="tab_text_size" format="dimension"></attr>
+        <attr name="tab_icon" format="reference"></attr>
+        <attr name="tab_selected_icon" format="reference"></attr>
+        <attr name="tab_selected_text_color" format="color"></attr>
+        <attr name="tab_unselected_text_color" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="BottomTabView">
+        <attr name="selectedPosition" format="integer"></attr>
+    </declare-styleable>
+
+</resources>
